@@ -4,7 +4,7 @@ from groq import Groq
 import re
 
 st.set_page_config(page_title="PDF Fact Checker", layout="wide")
-st.title("📄 PDF Fact Checker (Fully Free)")
+st.title("PDF Fact Checker")
 
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
